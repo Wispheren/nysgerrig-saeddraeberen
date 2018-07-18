@@ -1,28 +1,70 @@
 .App {
+  background-color: #f2e8eb;
+  margin: 0 auto;
+}
+
+.buttonWrapper {
+  width: 240px;
+  height: 155px;
+  padding-top: 30px;
+  margin: 0 auto;
+}
+
+.button {
+  display: inline-block;
+  width: 60px;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
+.button .image {
+  margin: 0 auto;
+  width: 50px;
+  height: 50px;
+  background-size: auto 50px;
+}
+
+.textWrapper {
+  width: 260px;
+  height: 165px;
+  padding: 10px;
+  margin: 0 auto;
+  border-radius: 15px;  
+  background-color: #5f8cef;
+  color: #fff;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.textWrapper h1 {
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.petri {
+  width: 300px;
+  height: 300px;
+  margin: -5px auto 0 auto;
+  background-size: 300px;
+  position: relative;  
+}
+
+.animate {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 133.75px;
+  background-size: auto 200px;
+  height: 200px;
+}
+
+.reset {
+  display: none;
+  width: 80px;
   height: 80px;
-}
-
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
-}
-
-.App-title {
-  font-size: 1.5em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  background-size: 80px;
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
 }
